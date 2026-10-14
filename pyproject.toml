@@ -1,0 +1,37 @@
+[project]
+name = "exhibition-lead-agent"
+version = "0.1.0"
+description = "Automated lead extraction and cold email drafting for fashion exhibitions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27.0",
+    "selectolax>=0.3.21",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=5.0.0",
+    "dnspython>=2.6.0",
+    "tldextract>=5.1.0",
+    "pydantic>=2.7.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.13.0",
+    "typer>=0.12.0",
+    "pyyaml>=6.0.1",
+    "google-genai>=0.1.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "jinja2>=3.1.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.3.0"
+]
+
+[project.scripts]
+exhibition-agent = "exhibition_lead_agent.cli:app"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

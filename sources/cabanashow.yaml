@@ -1,0 +1,18 @@
+key: cabanashow
+name: Cabana
+list_url: https://www.cabanashow.com/brand-list
+render: http
+brand_links:
+  selector: "a[href^='/brands/']"
+  name_from: text
+  url_from: href
+pagination: null
+profile:
+  website:
+    rule: first_external_link_not_social_not_same_domain
+  instagram:
+    selector: "a[href*='instagram.com']"
+  description:
+    selector: "meta[name='description']"
+expected_count_hint: "equals number of /brands/ links on list page"
+notes: static server-rendered HTML, grouped A to Z

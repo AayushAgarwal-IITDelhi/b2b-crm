@@ -1,0 +1,36 @@
+excluded_keywords:
+  - jewelry
+  - jewellery
+  - eyewear
+  - sunglasses
+  - perfume
+  - fragrance
+  - shoes
+  - footwear
+  - candles
+  - sun care
+  - skincare
+  - cosmetics
+  - home decor
+  - bags
+  - hats
+  - handbags
+  - purses
+excluded_mega_brands:
+  - "Christian Louboutin"
+  - "Polo Ralph Lauren"
+  - "Lauren Ralph Lauren"
+  - "Ralph Lauren"
+  - "Tom Ford"
+  - "Max Mara"
+  - "Rag & Bone"
+  - "Milly"
+  - "Camilla"
+  - "Veja"
+  - "Steve Madden"
+  - "Gucci"
+  - "Prada"
+  - "Louis Vuitton"
+  - "Chanel"
+  - "Dior"
+excluded_countries: []
